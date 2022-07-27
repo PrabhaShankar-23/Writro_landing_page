@@ -8,6 +8,7 @@ import "./style/login.css"
 import "./style/publishPane.css"
 import "./style/cover.css"
 import "./style/editor.css"
+import "./style/BookInfo.css"
 
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -19,6 +20,7 @@ import Login from './components/Login';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Cover from './components/Cover';
 import Editor from './components/Editor';
+import BookInfo from './components/BookInfo';
 
 
 function App() {
@@ -27,8 +29,9 @@ function App() {
       <div className="App">
       {/* <Navbar/> */}
       {/* <Cover/> */}
-      <Hero/>     
+      {/* <Hero/>      */}
       {/* <Editor/> */}
+      <BookInfo/>
       <Read_write/>
       <Read/>
       <Mobile/>
