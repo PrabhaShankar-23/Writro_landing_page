@@ -1,11 +1,13 @@
 import React from 'react';
 import {Link, NavLink,useLocation} from 'react-router-dom'
 import { useState, useEffect } from 'react';
+import EditorPane from "./EditorPane";
 
 const Navbar = () => {
 
    const location = useLocation();
    const [publishPage, setPublishPage] = useState(false);
+   const [editorPage, setEditorPage] = useState(false);
 
    useEffect(() => {
 
@@ -19,7 +21,21 @@ const Navbar = () => {
 
      }
 
-   },[location])
+   },[location]);
+
+   useEffect(() => {
+
+     if(location.pathname.includes("editor"))
+     {
+      //  console.log('publish');
+      setEditorPage(true);
+    }
+    else {
+      setEditorPage(false);
+     }
+
+   },[location]);
+
   // const navlinkStyles = ({isActive}) => {
   //   return {
   //     fontWeight : isActive ? "bold" : "normal"
@@ -27,8 +43,8 @@ const Navbar = () => {
   //   console.log(isActive);
   // }
 
-  console.log(location);
-  console.log(location.pathname.includes("publish"));
+  // console.log(location);
+  // console.log(location.pathname.includes("publish"));
   const [login, setLogin] = useState(false);
   const handleClick = () => {
     // console.log('logged in');
@@ -44,7 +60,6 @@ const Navbar = () => {
   
 }
 
-
   return (
     <div className='navbar'>
         <section className='navbar--logo--section'>
@@ -56,7 +71,11 @@ const Navbar = () => {
            
            </Link>
         </section>
-        <section className='sections'>
+
+        { 
+        // this section is for toggling publish section and editor section in navbar.
+          editorPage ? <EditorPane/> : (
+             <section className='sections'>
            <NavLink to="/publish" >
 
             <p 
@@ -69,11 +88,15 @@ const Navbar = () => {
             <p>Read</p>
             <p>Shop</p>
         </section>
+
+          )
+        }
+       
         <section className='navbar-btn' >
 
           {/* publishpage ?  */}
           {
-            publishPage ? (
+            (publishPage  || editorPage ) ? (
                <button className="btn--signUp">Save & Continue</button> ) :
 
             (login ? null : (

@@ -7,6 +7,7 @@ import "./style/footer.css"
 import "./style/login.css"
 import "./style/publishPane.css"
 import "./style/cover.css"
+import "./style/editor.css"
 
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
