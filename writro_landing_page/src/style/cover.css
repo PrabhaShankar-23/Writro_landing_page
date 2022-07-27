@@ -88,3 +88,22 @@
 
     color: #23BFC8;
 }
+
+.backcover--text {
+    margin-left: 368px;
+}
+
+.btn--makeBackCover {
+    background: #D99E82;
+}
+
+.btn--canva--section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn--publishcontinue {
+    margin-left: 94px;
+    margin-right: 54px;
+}

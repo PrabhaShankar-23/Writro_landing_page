@@ -1,0 +1,48 @@
+.great {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    /* identical to box height, or 112% */
+    margin-left: 470px;
+
+    color: #373F41;
+}
+
+.finalLanding--great--section {
+    display: flex;
+    margin-left: 98px;
+}
+
+.finalLanding--img--section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1360px;
+}
+
+.finalLandingTextDesc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #7D7D7D;
+    width: 267px;
+    height: 69px;
+}
+
+.finalLandingEllipse1 {
+    /* position: absolute; */
+    /* margin-/left: 100px; */
+    margin-top: 4px;
+    margin-right: 955px;
+}
+
+.finalLandingEllipse2 {
+    /* position: absolute; */
+    margin-left: 100px;
+    margin-top: 100px;
+}

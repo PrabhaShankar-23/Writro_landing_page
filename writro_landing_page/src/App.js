@@ -9,6 +9,7 @@ import "./style/publishPane.css"
 import "./style/cover.css"
 import "./style/editor.css"
 import "./style/BookInfo.css"
+import "./style/finalLanding.css"
 
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -21,6 +22,8 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Cover from './components/Cover';
 import Editor from './components/Editor';
 import BookInfo from './components/BookInfo';
+import BackCover from './components/BackCover';
+import FinalLanding from './components/FinalLanding';
 
 
 function App() {
@@ -31,7 +34,9 @@ function App() {
       {/* <Cover/> */}
       {/* <Hero/>      */}
       {/* <Editor/> */}
-      <BookInfo/>
+      {/* <BookInfo/> */}
+      {/* <BackCover/> */}
+      <FinalLanding/>
       <Read_write/>
       <Read/>
       <Mobile/>

@@ -20,7 +20,7 @@ const BookInfo = () => {
             <img src=".\img\book-lover.png" alt="writer logo" />
         <button className='btn--signUp'>CONTINUE TO PUBLISH</button>
              <p className='or'>or</p>
-        <button className='btn--signUp'>MAKE A BACK COVER</button>
+        <button className='btn--signUp btn--makeBackCover'>MAKE A BACK COVER</button>
         </section>
     </div>
   )
