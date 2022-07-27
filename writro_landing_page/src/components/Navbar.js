@@ -97,7 +97,13 @@ const Navbar = () => {
           {/* publishpage ?  */}
           {
             (publishPage  || editorPage ) ? (
-               <button className="btn--signUp">Save & Continue</button> ) :
+
+                <Link to="/editor">
+                
+                <button className="btn--signUp">Save & Continue</button> 
+                </Link>
+               
+               ) :
 
             (login ? null : (
               <>

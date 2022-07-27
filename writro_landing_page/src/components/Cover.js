@@ -25,11 +25,16 @@ const Cover = () => {
 
                 </section>
                 <p className='test--createYourOwn'>Create your own stylish cover with Canva</p>
+
+                  <Link to="/editor">
                 <section className='canva--section'>
+                  
                   <img src=".\img\Canva_Logo 1.png" alt="canvaIcon" />
                   <p className='text--createWithCanva'>Create with Canva</p>
                   <img src=".\img\blueArrowIcon.png" alt="blue arrow icon" />
+                  
                 </section>
+                  </Link>
 
             </section>
         </section>

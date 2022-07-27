@@ -52,3 +52,73 @@
 
     color: #23BFC8;
 }
+
+/* ! css for editor book structure */
+
+.book--Structure--section {
+
+    background: #F3F3F3;
+    width: 259px;
+    height: 895px;
+}
+
+.book--structure--pane {
+    background: rgba(217, 158, 130, 0.4);
+    width: 259px;
+    height: 83px;
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    align-items: center;
+    justify-content: space-around;
+
+    color: #4E4E4E;
+}
+
+.editor {
+    display: flex;
+}
+
+.penIcon {
+    Width: 16px;
+    Height: 19.6px;
+    /* background: #4E4E4E; */
+    margin-left: 4px;
+}
+
+.upperText--editor {
+    display: flex;
+    margin-left: 36px;
+    margin-top: 36px;
+    align-items: center;
+}
+
+.bookName {
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 24px;
+    /* identical to box height, or 80% */
+    color: #333333;
+}
+
+.chapterTitlegrayline {
+    margin-bottom: 45px;
+    margin-left: 38px;
+}
+
+.titleBook {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    margin-left: 38px;
+
+    color: #BCBCBC;
+}

@@ -8,6 +8,7 @@ import {BrowserRouter as Router,Routes, Route} from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import PublishPane from './components/PublishPane';
+import Editor from './components/Editor';
 
 
 
@@ -22,7 +23,7 @@ root.render(
      <Route path='/' element= { <App />}/>
      <Route path='/Login' element= { <Login />}/>
      <Route path='/publish' element= {<PublishPane/>}/>
-     <Route path='/editor' element= {<PublishPane/>}/>
+     <Route path='/editor' element= {<Editor/>}/>
 
      <Route path='*' element= { <App />}/>
      </Routes>

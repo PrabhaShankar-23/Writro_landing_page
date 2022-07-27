@@ -18,6 +18,7 @@ import Mobile from './components/Mobile';
 import Login from './components/Login';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Cover from './components/Cover';
+import Editor from './components/Editor';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       {/* <Navbar/> */}
       {/* <Cover/> */}
       <Hero/>     
+      {/* <Editor/> */}
       <Read_write/>
       <Read/>
       <Mobile/>
