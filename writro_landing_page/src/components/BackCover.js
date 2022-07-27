@@ -3,6 +3,11 @@ import {Link, useNavigate} from 'react-router-dom'
 
 
 const BackCover = () => {
+
+    const navigate = useNavigate();
+    const handleClick = () => {
+         navigate("/final__landing")
+    }
   return (
     <div>
          <section className='publish--cover'>
@@ -40,7 +45,9 @@ const BackCover = () => {
                   
                 </section>
                   </Link>
-                <button className='btn--signUp btn--publishcontinue'>CONTINUI TO PUBLISH</button>
+                <button className='btn--signUp btn--publishcontinue'
+                onClick={handleClick}
+                >CONTINUI TO PUBLISH</button>
                 </section>
 
 

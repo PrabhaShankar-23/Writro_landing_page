@@ -32,11 +32,11 @@ function App() {
       <div className="App">
       {/* <Navbar/> */}
       {/* <Cover/> */}
-      {/* <Hero/>      */}
+      <Hero/>     
       {/* <Editor/> */}
       {/* <BookInfo/> */}
       {/* <BackCover/> */}
-      <FinalLanding/>
+      {/* <FinalLanding/> */}
       <Read_write/>
       <Read/>
       <Mobile/>

@@ -1,6 +1,16 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const BookInfo = () => {
+
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate("/back__cover")
+    };
+    const handleClickPublish = () => {
+        navigate("/final__landing")
+    };
+
   return (
     <div className='bookInfo--section'>
         <img className='BookInfo--cover' src=".\img\Passion Or Love Creative Cover Book1 2.png" alt="my first Love" />
@@ -18,9 +28,9 @@ const BookInfo = () => {
         </section>
         <section className='bookInfo--button--section'>
             <img src=".\img\book-lover.png" alt="writer logo" />
-        <button className='btn--signUp'>CONTINUE TO PUBLISH</button>
+        <button className='btn--signUp' onClick={handleClickPublish} >CONTINUE TO PUBLISH</button>
              <p className='or'>or</p>
-        <button className='btn--signUp btn--makeBackCover'>MAKE A BACK COVER</button>
+        <button className='btn--signUp btn--makeBackCover' onClick={handleClick}>MAKE A BACK COVER</button>
         </section>
     </div>
   )

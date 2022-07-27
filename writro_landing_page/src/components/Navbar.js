@@ -8,6 +8,7 @@ const Navbar = () => {
    const location = useLocation();
    const [publishPage, setPublishPage] = useState(false);
    const [editorPage, setEditorPage] = useState(false);
+   const [bookInfoPage,setBookInfoPage] = useState(false);
 
    useEffect(() => {
 
@@ -32,7 +33,17 @@ const Navbar = () => {
     }
     else {
       setEditorPage(false);
-     }
+     };
+
+     if(location.pathname.includes("editor"))
+     {
+      //  console.log('publish');
+      setEditorPage(true);
+    }
+    else {
+      setEditorPage(false);
+     };
+
 
    },[location]);
 
@@ -98,10 +109,13 @@ const Navbar = () => {
           {
             (publishPage  || editorPage ) ? (
 
-                <Link to="/editor">
+                editorPage ? (<Link to="/book__info">
                 
                 <button className="btn--signUp">Save & Continue</button> 
-                </Link>
+                </Link>   ) : (<Link to="/editor">
+                
+                <button className="btn--signUp">Save & Continue</button> 
+                </Link>)                
                
                ) :
 

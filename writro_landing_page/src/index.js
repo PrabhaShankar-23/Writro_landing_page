@@ -9,6 +9,9 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import PublishPane from './components/PublishPane';
 import Editor from './components/Editor';
+import FinalLanding from './components/FinalLanding';
+import BookInfo from './components/BookInfo';
+import BackCover from './components/BackCover';
 
 
 
@@ -21,9 +24,13 @@ root.render(
      <Navbar/>
      <Routes>
      <Route path='/' element= { <App />}/>
-     <Route path='/Login' element= { <Login />}/>
+     <Route path='/login' element= { <Login />}/>
      <Route path='/publish' element= {<PublishPane/>}/>
      <Route path='/editor' element= {<Editor/>}/>
+     <Route path='/book__info' element= {<BookInfo/>}/>
+     <Route path='/back__cover' element= {<BackCover/>}/>
+
+     <Route path='/final__landing' element= {<FinalLanding/>}/>
 
      <Route path='*' element= { <App />}/>
      </Routes>
