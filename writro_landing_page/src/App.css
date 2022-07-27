@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.primary--color {
+  color: #AA3C3C;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+/* =============== styling for Navbar =============== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.active {
+  color: #AA3C3C;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+}
+
+.normals {
+  color: black;
+}
+
+.navbar--logo--section {
+  display: flex;
+  /* width: 50px; */
+  /* justify-content: center; */
+  align-items: center;
+  margin-left: 6rem;
+
+}
+
+.logo--img {
+  /* position: absolute; */
+  width: 70px;
+  height: 77px;
+  left: 109px;
+  top: 14px;
+
+}
+
+.logo--writro {
+  /* position: absolute; */
+  /* height: 32px; */
+  left: 174px;
+  right: 1147px;
+  top: calc(50% - 32px/2);
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  margin-left: 5px;
+
+  color: #AA3C3C;
+}
+
+.sections {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  justify-content: space-around;
+}
+
+.navbar-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* width: 400px; */
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-right: 173px;
+}
+
+.btn--login-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  cursor: pointer;
+  background: #D99E82;
+  border-radius: 6px;
+  margin-right: 10px;
+  border: none;
+  color: #AA3C3C;
+  width: 77px;
+  /* heighst: 20px; */
+  margin-top: 0px;
+}
+
+.btn--signUp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+
+  background: #AA3C3C;
+  border-radius: 6px;
+  border: none;
+  color: white;
+}
+
+/* =============== styling for Hero =============== */
+
+.headerSection {
+
+  display: flex;
+  /* flex-direction: row; */
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.hero--images {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 5rem;
+  justify-content: center;
+  margin-top: 20rem;
+
+}
+
+.speechBubble {
+  /* position: absolute; */
+  left: 38.96%;
+  right: 49.95%;
+  /* top: 16.67%; */
+  bottom: 78.86%;
+  /* margin-bottom: 10rem; */
+  margin-right: 10rem;
+  margin-bottom: 20rem;
+}
+
+.character {
+  position: absolute;
+  left: 44.79%;
+  right: 38.97%;
+  top: 18.94%;
+  bottom: 74.68%;
+}
+
+.publishing--reading {
+  /* position: relative; */
+
+
+  display: flex;
+  /* flex-direction: row; */
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: center;
+  width: 1110px;
+  height: 356px;
+  left: calc(50% - 1110px/2 - 13px);
+  top: 160px;
+
+}
+
+.hero--writeup {
+  /* position: absolute; */
+  width: 1110px;
+  height: 196px;
+  left: 0px;
+  top: calc(50% - 196px/2 - 80px);
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 98px;
+  /* or 153% */
+
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+
+  color: #373F41;
+}
+
+.btn--publishing--reading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 12px; */
+  padding-left: 3rem;
+  gap: 10px;
+
+  /* position: absolute; */
+  width: 191px;
+  height: 48px;
+  left: 336px;
+  top: 238px;
+  margin-left: 1rem;
+  background: #C1694F;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  border: none;
+  color: white;
+  /* text-align: center; */
+  cursor: pointer;
+
+}
+
+.btn--headers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header--section {
+  display: flex;
+  /* flex-direction: row; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.elipse {
+
+  position: absolute;
+  width: 414px;
+  height: 414px;
+  left: -277px;
+  top: 191px;
+
+  background: rgba(217, 158, 130, 0.8);
+  border-radius: 50%;
+}
+
+/* .elipse2 {
+  
+  width: 414px;
+  height: 414px;
+  left: 1180px;
+  top: 191px;
+  border-radius: 50%;
+  background: rgba(217, 158, 130, 0.8);
+  overflow: hidden;
+} */
+
+.elipse2 {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 592px;
+}

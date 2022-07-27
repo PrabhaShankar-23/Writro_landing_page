@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.primary--color {
+    color: #AA3C3C;
+}
+
+/* =============== styling for Read-write =============== */
+
+.read--write {
+    /* position: relative; */
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: row;
+    align-items: center;
+}
+
+.writro {
+
+    /* position: absolute; */
+    width: 321px;
+    height: 42px;
+    left: 116px;
+    top: 29px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 42px;
+    /* identical to box height, or 86% */
+    /* text-align: center; */
+    color: #AA3C3C;
+}
+
+.read--section {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row; */
+    align-items: flex-start;
+    margin-left: 116px;
+}
+
+.writeUp {
+    /* position: absolute; */
+    width: 559px;
+    height: 210px;
+    left: 116px;
+    top: 100px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    color: #4F4F4F;
+}
+
+.btn--read--write {
+    /* position: absolute; */
+    width: 280px;
+    height: 65px;
+    left: 116px;
+    top: 20rem;
+    background: #C77968;
+    /* box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25); */
+    border-radius: 18px;
+    color: white;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.imgColumn {
+    /* position: relative; */
+    display: flex;
+    margin-left: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart2 {
+    /* position: absolute; */
+    margin-top: 9rem;
+    margin-left: 174px;
+    width: 361px;
+}
+
+.creditCard {
+
+    position: absolute;
+
+    margin-top: 23rem;
+    margin-left: -433px;
+}
+
+.vector1 {
+    position: absolute;
+    margin-top: 224px;
+    margin-left: -39px;
+    z-index: 1;
+}
+
+.vector2 {
+    position: absolute;
+    margin-top: 280px;
+    margin-left: -47px;
+    /* z-index: -1; */
+
+}

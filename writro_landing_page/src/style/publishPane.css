@@ -1,0 +1,123 @@
+.publishTitle {
+    display: flex;
+    width: 970px;
+    height: 539px;
+    background: #FBFBFB;
+    box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    margin-top: 60px;
+    margin-left: 192px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.publisherDetails {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.backbutton {
+    display: flex;
+    align-items: center;
+}
+
+.text--backToAccount {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #7D7D7D;
+}
+
+.backButtonImage {
+
+    width: 18px;
+    height: 17px;
+    margin-right: 4px;
+}
+
+.startswithHabit {
+    width: 417px;
+    height: 24px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 24px;
+    /* identical to box height, or 67% */
+    margin-top: 24px;
+
+    color: #4E4E4E;
+}
+
+.writingAbook {
+    width: 307px;
+    height: 24px;
+    left: 293px;
+    top: 312px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    margin-top: 18px;
+
+    color: #7D7D7D;
+}
+
+.text--booktitle {
+    width: 118px;
+    height: 24px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    margin-top: 40px;
+
+    color: #4E4E4E;
+}
+
+.text--author {
+
+    width: 183px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    margin-top: 28px;
+
+    color: #4E4E4E;
+}
+
+.publish--booktitle {
+    margin-left: -2px;
+    margin-top: 24px;
+}
+
+.publishLine {
+
+    margin-left: -1px;
+}
+
+.btn--details {
+    border: none;
+    margin-left: -6px;
+    width: 169px;
+    height: 40px;
+}

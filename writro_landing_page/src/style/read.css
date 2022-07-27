@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.primary--color {
+    color: #AA3C3C;
+}
+
+/* =============== styling for Read-write =============== */
+
+.reader {
+    display: flex;
+    margin-top: 10rem;
+    /* flex-direction: row; */
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+    justify-content: space-around;
+
+}
+
+.read--Images {
+    display: flex;
+    margin-left: 50rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.read--description {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    align-items: flex-end;
+    /* margin-left: 116px; */
+}
+
+/* .read--images--section {
+
+
+} */
+.whitePhone {
+    width: 270px;
+    height: 548px;
+    /* margin-bottom: ; */
+}
+
+.cloud {
+    position: absolute;
+    width: 90px;
+    height: 77px;
+
+    margin-left: -58px;
+    margin-top: 24px;
+}
+
+.Pot {
+
+    position: absolute;
+    width: 330px;
+    height: 330px;
+
+    margin-left: -524px;
+    margin-top: 189px;
+}
