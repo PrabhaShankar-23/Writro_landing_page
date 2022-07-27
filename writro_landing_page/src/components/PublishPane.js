@@ -16,7 +16,7 @@ const [publishDetails, setPublishDetails] = useState({
    const handleClick = () => {
      if(publishDetails.bookTitle && publishDetails.author){
       setPublished(!published);
-      // console.log('published in');
+      console.log('published in');
       // navigate('/');
     }
   }
@@ -48,8 +48,9 @@ const [publishDetails, setPublishDetails] = useState({
 
   return (
 
-    <>
-    published ? (
+    <> {
+
+      published ? (
     <div className='publishTitle'>
         <section className='publisherDetails'>
         <section className='backbutton'>
@@ -93,6 +94,9 @@ const [publishDetails, setPublishDetails] = useState({
         </section>
         
      </div>) : (<Cover/>)   
+
+    }
+    
     
     
     
